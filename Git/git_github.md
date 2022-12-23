@@ -18,6 +18,11 @@ GitHub é uma plataforma para versionamento, controle e colaboração, onde voc�
 
     - [Autenticação](./git_auth.md)
 
+> Alternativas ao GitHub.
+>
+> [GitLab](https://about.gitlab.com/)
+>
+> [BitBucket](https://bitbucket.org/)
 
 ---
 
