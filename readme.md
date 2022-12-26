@@ -1,9 +1,5 @@
-# This's a colobarative studies repositorie
+# This's a colaborative studies repository
 
 - [Git](./Git/git.md)
 
 - [Github](./Git/git_github.md)
-
-## talk abou confs --global
-user.name
-user.email
