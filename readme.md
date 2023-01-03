@@ -1,7 +1,7 @@
-# This's a colobarative studies repositorie
+# This's a colaborative studies repository
 
-- [Git/Github](./Git/git_github.md)
+- [Git](./Git/git.md)
 
-## talk abou confs --global
-user.name
-user.email
+- [Github](./Git/git_github.md)
+
+happy new year

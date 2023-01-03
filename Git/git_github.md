@@ -1,22 +1,19 @@
-# Let's talk about github first.
+# Github
 
-Iremos falar sobre github antes de git, pois preciramos de uma plataforma para usar nossos exemplos.
-
----
-
+<br>
 <p align="center">
     <img src="./images/github.png">
 </p>
 
-GitHub é uma plataforma para versionamento, controle e colaboração, onde você e outros podem desenvolver seus projetos juntos.
+Como vimos, GitHub é uma plataforma para versionamento, controle e colaboração, onde você e outros podem desenvolver seus projetos juntos.
 
 - 1 - Primeiro temos que instalar o git em nosso computador.
 
-    - [Instalando o Git](./git_install.md)
+  - [Instalando o Git](./git_install.md)
 
 - 2 - Agora precisaremos configurar nosso git para ele poder se comunicar com o github.
 
-    - [Autenticação](./git_auth.md)
+  - [Autenticação](./git_auth.md)
 
 > Alternativas ao GitHub.
 >
@@ -29,4 +26,3 @@ GitHub é uma plataforma para versionamento, controle e colaboração, onde voc�
 <p align="center">
     <img src="./images/git_logo.png">
 </p>
-
