@@ -7,6 +7,8 @@
 
 Como vimos, GitHub é uma plataforma para versionamento, controle e colaboração, onde você e outros podem desenvolver seus projetos juntos.
 
+---
+
 - 1 - Primeiro temos que instalar o git em nosso computador.
 
   - [Instalando o Git](./git_install.md)
@@ -23,6 +25,12 @@ Como vimos, GitHub é uma plataforma para versionamento, controle e colaboraçã
 
 ---
 
+# Git
+
 <p align="center">
     <img src="./images/git_logo.png">
 </p>
+
+- 1 - Primeiro iremos falar sobre repositorios.
+
+    - [Repositório](./repository.md)
