@@ -10,7 +10,7 @@ sudo apt install git
 
 ### [Windows](https://git-scm.com/download/win)
 
-### Using Winget
+### Using winget
 
 ```bash
 winget install --id Git.Git -e --source winget

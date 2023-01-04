@@ -13,7 +13,7 @@ Como vimos, GitHub é uma plataforma para versionamento, controle e colaboraçã
 
   - [Instalando o Git](./git_install.md)
 
-- 2 - Agora precisaremos configurar nosso git para ele poder se comunicar com o github.
+- 2 - Agora precisaremos configurar nosso git para que ele possa se comunicar com o github.
 
   - [Autenticação](./git_auth.md)
 
@@ -33,4 +33,5 @@ Como vimos, GitHub é uma plataforma para versionamento, controle e colaboraçã
 
 - 1 - Primeiro iremos falar sobre repositorios.
 
-    - [Repositório](./repository.md)
+  - [Repositório](./repository.md)
+  
