@@ -1,4 +1,4 @@
-# This's a colaborative studies repository
+# This's a collaborative studies repository
 
 - [Git](./Git/git.md)
 
