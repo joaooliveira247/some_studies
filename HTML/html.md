@@ -23,3 +23,28 @@ Algumas tags comuns incluem:
 ```
 
 Há muitas outras tags disponíveis em HTML, cada uma com um propósito específico. Quando um navegador da web lê um documento HTML, ele interpreta as tags e as usa para exibir o conteúdo da página da web de maneira apropriada.
+
+### *Exemplo*
+
+Aqui está um exemplo de uma página HTML básica:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+  </head>
+  <body>
+    <h1>Welcome to my website!</h1>
+    <p>Here you will find all sorts of interesting information about me and my hobbies.</p>
+    <ul>
+      <li>Hiking</li>
+      <li>Cooking</li>
+      <li>Reading</li>
+    </ul>
+    <p>Check out my <a href="/blog">blog</a> for more updates.</p>
+  </body>
+</html>
+```
+
+Este código cria uma página com um título "Welcome to my website!", um parágrafo de introdução e uma lista de itens. Ele também inclui um link para um blog. Quando essa página é carregada em um navegador da web, o conteúdo será exibido de acordo com as tags HTML.
