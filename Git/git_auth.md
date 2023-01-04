@@ -1,20 +1,18 @@
-# Autenticação no GitHub usando ssh.
+# Autenticação no GitHub usando SSH
 
-Nesse caso, iremos usar o [ssh](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/about-ssh) como autenticação, que uma recomendação do proprio guithub.
+Nesse caso iremos usar o [SSH](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/about-ssh) como autenticação, que é uma recomendação do próprio GitHub.
 
-
-## Criando uma chave ssh.
+## Criando uma chave ssh
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-
-```bash 
+```bash
 > Generating public/private ALGORITHM key pair[Press enter]
 ```
 
-Nessa parte é aconselhado a definir uma senha 
+*É recomendável utilizar uma senha.*
 
 ```bash
 > Enter passphrase (empty for no passphrase): [Type a passphrase]
@@ -25,11 +23,11 @@ No final teremos isso.
 
 ![ssh_gen_img](./images/ssh-sem-digitar-senha-rsa-chave.png)
 
-Como vimos acima foram geradas duas chaves a id_rsa e a id_rsa.pub.
+Como vimos acima foram geradas duas chaves a id_ed25519 e a id_ed25519.pub.
 
-## Sincronizando chaves.
+## Sincronizando chaves
 
-Agora precisamos pegar a chave pública e cadastrar no GitHub, para que ele posso comparar a nossa chave pública com a privada e autenticar-nos.
+Agora precisamos pegar a chave pública e cadastrar no GitHub, para que ele possa comparar a nossa chave pública com a privada e autenticar-nos.
 
 - Linux
 
@@ -37,52 +35,53 @@ Agora precisamos pegar a chave pública e cadastrar no GitHub, para que ele poss
     cat .ssh/id_rsa.pub
     ```
 
-
 Copie sua chave ssh.
 
 Deve ser algo semelhante a isso:
 
-> Chave meramente ilustrativa:
+> ***Chave meramente ilustrativa***
 >
 >ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJl3dIeudNqd0DPMRD6OIh65tjkxFNOtwGcWB2gCgPhk email@email.com
+
+<br>
 
 - Agora vamos ao Github.
 
     Em seu perfil siga os seguintes passos:
 
-    - 1
+  - 1
 
-        ![settings](./images/settings.png)
+    ![settings](./images/settings.png)
 
-    - 2
+  - 2
 
-        ![keys](./images/keys.png) 
+    ![keys](./images/keys.png)
 
-    - 3
+  - 3
 
-        ![new_key](./images/new_key.png)
+    ![new_key](./images/new_key.png)
 
-    - 4
-    
-        ![add_new](./images/add_new.png)
+  - 4
 
-    - 5
+    ![add_new](./images/add_new.png)
 
-        ![sucess](./images/success.png)
+  - 5
 
-Pronto agora estamos autenticado, mas não acabou por aqui ainda, temos que configurar algumas coisas no git agora.
+    ![sucess](./images/success.png)
 
-## Algumas configurações importantes.
+Pronto agora estamos autenticados, mas não acabou por aqui ainda, temos que configurar algumas coisas no git agora.
 
-- Username
-    
-    É recomendado usar o mesmo username do github.
+## Algumas configurações importantes
+
+- ***Username***
+
+    É recomendado usar o mesmo username do GitHub.
 
     ```bash
     git config --global user.name "Seu username"
     ```
 
-- Email
+- ***Email***
 
     É recomendado usar o mesmo email que você colocou como autenticação no ssh.
 
@@ -90,13 +89,13 @@ Pronto agora estamos autenticado, mas não acabou por aqui ainda, temos que conf
     git config --global user.email "youremail@yourdomain.com"
     ```
 
-- Branch
+- ***Branch***
 
     Ainda não aprendemos sobre branch, mas é recomendado a troca do nome de master para main.
 
     >Leia mais sobre em:
     >
-    >https://sfconservancy.org/news/2020/jun/23/gitbranchname/
+    ><https://sfconservancy.org/news/2020/jun/23/gitbranchname/>
 
     ```bash
     git config --global init.defaultBranch main
@@ -104,4 +103,4 @@ Pronto agora estamos autenticado, mas não acabou por aqui ainda, temos que conf
 
 > Caso queira ler mais sobre autenticação com ssh no GitHub.
 >
->https://docs.github.com/pt/authentication/connecting-to-github-with-ssh
+><https://docs.github.com/pt/authentication/connecting-to-github-with-ssh>
