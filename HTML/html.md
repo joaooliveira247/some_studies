@@ -1,16 +1,14 @@
 # HTML
 
-HTML (HyperText Markup Language) é uma **linguagem de marcação de hipertexto** (não é uma linguagem de programação) utilizada para criar páginas da web. Ela fornece uma forma de descrever a estrutura de informações baseadas em texto em um documento, denotando certos textos como títulos, parágrafos, listas, links, citações e entre outros tipos de conteúdo.
+HTML (HyperText Markup Language) é uma **linguagem de marcação de hipertexto** utilizada para criar páginas da web (não é uma linguagem de programação). Ela fornece a descrição da estruturação da página através de textos no documento, denotando conteúdos como títulos, parágrafos, listas, links, imagens e entre outros.
 
-> *Hipertexto são links que conectam páginas web entre si.*
-
-O HTML é escrito sob a forma de elementos HTML, que consistem em tags incluídas em colchetes angulares (como <html>). As tags HTML são usadas para criar documentos HTML e são utilizadas para descrever o conteúdo da página da web.
+> *Hipertexto são links que conectam páginas da web entre si.*
 
 ---
 
-## Tags
+## TAGS
 
-As tags HTML são elementos que formam os componentes de um documento HTML. Cada tag geralmente consiste em um termo entre < e >, e pode incluir atributos adicionais para fornecer mais informações sobre o elemento. 
+As tags são os componentes que formam o esqueleto e que definem a hierarquia dos elementos de um documento HTML. Cada tag geralmente consiste em um código com o sistema de abertura e fechamento, como `<tag>` e `</tag>`. Além disso, podemos incluir atributos adicionais para fornecer mais informações sobre o elemento. 
 Por exemplo:
 
 ```html
@@ -26,7 +24,7 @@ Algumas tags comuns incluem:
 <div> → Define uma divisão ou seção em um documento
 <a> → Define um link para outro documento ou para uma localização em um mesmo documento
 ```
-#### ENFASE EM TEXTO
+#### ÊNFASE EM TEXTO
 ```html
 <i> → itálico
 <b> → negrito
@@ -57,7 +55,9 @@ Algumas tags comuns incluem:
 
 Há muitas outras tags disponíveis em HTML, cada uma com um propósito específico. Quando um navegador da web lê um documento HTML, ele interpreta as tags para exibir o conteúdo da página da web de maneira apropriada.
 
-Aqui está um exemplo de uma página HTML básica:
+---
+
+#### Exemplo de uma página HTML básica:
 
 ```html
 <!DOCTYPE html>
@@ -78,4 +78,4 @@ Aqui está um exemplo de uma página HTML básica:
 </html>
 ```
 
-Este código cria uma página com um título "Welcome to my website!", um parágrafo de introdução e uma lista de itens, além de um link para um blog. Quando essa página é carregada em um navegador da web, o conteúdo será exibido de acordo com as tags HTML.
+Este código cria uma página com um título "Welcome to my website!", um parágrafo de introdução e uma lista não-ordenada de itens, além de um link para um blog. Quando essa página é carregada em um navegador da web, o conteúdo será exibido de acordo com as tags HTML.
