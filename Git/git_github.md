@@ -31,7 +31,23 @@ Como vimos, GitHub é uma plataforma para versionamento, controle e colaboraçã
     <img src="./images/git_logo.png">
 </p>
 
-- 1 - Primeiro iremos falar sobre repositorios.
+---
 
+## Git WorkFlow.
+
+![workflow](./images/Git%20Diagram.png)
+
+---
+
+- 1 - Primeiro, iremos falar repositorios.
+
+    - [Repositório](./repository.md)
+
+- 2 - Segundo, iremos falar sobre a area de transição entre [ Working Directory ] -> [ Staging Area ].
+
+<<<<<<< HEAD
+  - [Staging Area](./git_staging.md)
+=======
   - [Repositório](./repository.md)
   
+>>>>>>> 4735d412e6e0362fd3ccbb5e845a018091c5f72f
