@@ -41,7 +41,7 @@ Algumas tags comuns incluem:
   <li> Thomas Jefferson </li>
 </ol>
 ```
-<img src="../html/assets/images/lista-ordenada.png">
+<img src="../HTML/assets/images/lista-ordenada.png">
 
 > **não ordenadas:** coloca marcadores antes de cada elemento.
 ```html
@@ -51,7 +51,7 @@ Algumas tags comuns incluem:
   <li> John Quincy Adams </li>
 </ul>
 ```
-<img src="../html/assets/images/lista-naoordenada.png">
+<img src="../HTML/assets/images/lista-naoordenada.png">
 
 Há muitas outras tags disponíveis em HTML, cada uma com um propósito específico. Quando um navegador da web lê um documento HTML, ele interpreta as tags para exibir o conteúdo da página da web de maneira apropriada.
 
@@ -78,4 +78,4 @@ Há muitas outras tags disponíveis em HTML, cada uma com um propósito específ
 </html>
 ```
 
-Este código cria uma página com um título "Welcome to my website!", um parágrafo de introdução e uma lista não-ordenada de itens, além de um link para um blog. Quando essa página é carregada em um navegador da web, o conteúdo será exibido de acordo com as tags HTML.
+Este código cria uma página com um título "Welcome to my website!", um parágrafo de introdução e uma lista não ordenada de itens, além de um link para um blog. Quando essa página é carregada em um navegador da web, o conteúdo será exibido de acordo com as tags HTML.
