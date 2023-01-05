@@ -78,4 +78,4 @@ Há muitas outras tags disponíveis em HTML, cada uma com um propósito específ
 </html>
 ```
 
-Este código cria uma página com um título "Welcome to my website!", um parágrafo de introdução e uma lista não-ordenada de itens, além de um link para um blog. Quando essa página é carregada em um navegador da web, o conteúdo será exibido de acordo com as tags HTML.
+Este código cria uma página com um título "Welcome to my website!", um parágrafo de introdução e uma lista não ordenada de itens, além de um link para um blog. Quando essa página é carregada em um navegador da web, o conteúdo será exibido de acordo com as tags HTML.

@@ -1,4 +1,7 @@
-# This's a collaborative studies repository
+# 📝 Some studies
+Repositório open-source para anotações de iniciantes em programação.
+
+#### CONTEÚDOS:
 
 - [Git](./Git/git.md)
 
@@ -6,4 +9,4 @@
 
 - [HTML](./HTML/html.md)
 
-happy new year
+- [CSS](./CSS/CSS.md)
