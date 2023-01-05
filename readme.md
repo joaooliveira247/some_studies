@@ -1,7 +1,8 @@
 # 📝 Some studies
+
 Repositório open-source para anotações de iniciantes em programação.
 
-#### CONTEÚDOS:
+## Conteúdos
 
 - [Git](./Git/git.md)
 
