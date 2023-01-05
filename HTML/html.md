@@ -8,7 +8,7 @@ HTML (HyperText Markup Language) é uma **linguagem de marcação de hipertexto*
 
 ## TAGS
 
-As tags são os componentes que formam o esqueleto e que definem a hierarquia dos elementos de um documento HTML. Cada tag geralmente consiste em um código com o sistema de abertura e fechamento, como `<tag>` e `</tag>`. Além disso, podemos incluir atributos adicionais para fornecer mais informações sobre o elemento. 
+As tags são os componentes que formam o esqueleto e que definem a hierarquia dos elementos de um documento HTML. Cada tag geralmente consiste em um código com o sistema de abertura e fechamento, como `<tag>` e `</tag>`. Além disso, podemos incluir atributos adicionais para fornecer mais informações sobre o elemento.
 Por exemplo:
 
 ```html
@@ -24,7 +24,9 @@ Algumas tags comuns incluem:
 <div> → Define uma divisão ou seção em um documento
 <a> → Define um link para outro documento ou para uma localização em um mesmo documento
 ```
-#### ÊNFASE EM TEXTO
+
+### ÊNFASE EM TEXTO
+
 ```html
 <i> → itálico
 <b> → negrito
@@ -32,8 +34,10 @@ Algumas tags comuns incluem:
 <strong> → negrito semântico
 ```
 
-#### LISTAS
-> **ordenadas:** enumera os elementos da lista.
+### LISTAS
+
+> **Ordenadas:** enumera os elementos da lista.
+
 ```html
 <ol>
   <li> George Washington </li>
@@ -41,9 +45,14 @@ Algumas tags comuns incluem:
   <li> Thomas Jefferson </li>
 </ol>
 ```
+
 <img src="../HTML/assets/images/lista-ordenada.png">
 
-> **não ordenadas:** coloca marcadores antes de cada elemento.
+<br>
+<br>
+
+> **Não ordenadas:** coloca marcadores antes de cada elemento.
+
 ```html
 <ul>
   <li> James Madison </li>
@@ -51,13 +60,17 @@ Algumas tags comuns incluem:
   <li> John Quincy Adams </li>
 </ul>
 ```
+
 <img src="../HTML/assets/images/lista-naoordenada.png">
+
+<br>
+<br>
 
 Há muitas outras tags disponíveis em HTML, cada uma com um propósito específico. Quando um navegador da web lê um documento HTML, ele interpreta as tags para exibir o conteúdo da página da web de maneira apropriada.
 
----
+<br>
 
-#### Exemplo de uma página HTML básica:
+#### Exemplo de uma página HTML básica
 
 ```html
 <!DOCTYPE html>
