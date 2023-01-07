@@ -23,7 +23,7 @@ A staging area podemos imaginar que é a area de preparo de nossos arquivos.
 
     > **__Analogia__**
     >
-    > O status seria o "Rastrear Entrega" do nosso sitema.
+    > O status seria o **"Rastrear Pacote"** do nosso sitema.
 
 - Mandando nossos arquivos para area de staging:
 
