@@ -46,10 +46,12 @@ Repositório é um diretório onde os arquivos do seu projeto ficam armazenados.
     > Resposta: Precisaremos criar um repositório no GitHub para conectá-lo com o nosso repositório local, pois este ainda existe apenas em nossa máquina.
 
   - 1
-        ![new](./images/new_repository.png)
+
+    ![new](./images/new_repository.png)
 
   - 2
-        ![create](./images/create_repository.png)
+
+    ![create](./images/create_repository.png)
 
 - 3 - Conectando um repositório local ao GitHub.
 
